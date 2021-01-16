@@ -22,3 +22,7 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+# From app
+migrations/
+*.sqlite
