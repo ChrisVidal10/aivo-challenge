@@ -115,7 +115,7 @@ def get_products():
         all_country_indexes = CountryIndex.query.all()
     else:
         all_country_indexes = CountryIndex.query.filter(
-            (CountryIndex.indicator == index) & (CountryIndex.value >= value))
+            (CountryIndex.indicator == index) & (CountryIndex.value > value))
 
     result = countries_index_schema.dump(all_country_indexes)
     return jsonify(result)
