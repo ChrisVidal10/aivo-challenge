@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     db = 'db.sqlite'  # Database filename
 
-    file_name = "BLI_28032019144925238.csv"
+    file_name = "data/BLI_28032019144925238.csv"
 
     data = Load_Data(file_name)  # Get data from CSV
 

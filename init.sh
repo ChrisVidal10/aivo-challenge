@@ -3,5 +3,5 @@
 flask db init
 flask db migrate
 flask db upgrade
-python3 load_script.py
+python3 scripts/load_script.py
 flask run
